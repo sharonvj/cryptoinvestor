@@ -84,34 +84,35 @@ We have utils folder
 
 #EXCUTION STEPS
 ------------
-git clone https://github.com/sharonvj/cryptoinvestor.git
+1. git clone https://github.com/sharonvj/cryptoinvestor.git
 
+2.Go to cryptoInvestors directory
 
-Go to CryptoInvestors directory
+3. Run `npm install`
 
-1. Open a terminal 
+4. Open a terminal 
 
-2. Run `node app.js`
+5. Run `node app.js`
 
-3. Open another terminal 
+6. Open another terminal 
 
-4. To get latest portfolio value per token in USD - 
+7. To get latest portfolio value per token in USD - 
    
    Run `curl http://localhost:3000/api/v1/portfolio/latest`
 
-5.  To get latest portfolio value for given token in USD
+8.  To get latest portfolio value for given token in USD
 
    Run `curl http://localhost:3000/api/v1/portfolio/latest/<token>`
 
    ex. `curl http://localhost:3000/api/v1/portfolio/latest/BTC`
 
-6. To get portfolio value per token in USD on given date
+9. To get portfolio value per token in USD on given date
   
    Run `curl http://localhost:3000/api/v1/portfolio/search/<timestamp>`
 
    ex. `curl http://localhost:3000/api/v1/portfolio/search/1571967208`
 
-6. To get portfolio value per token in USD on given date & token
+10. To get portfolio value per token in USD on given date & token
    
    Run `curl http://localhost:3000/api/v1/portfolio/search/<timestamp>/<token>`
 
