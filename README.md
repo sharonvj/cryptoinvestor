@@ -73,20 +73,11 @@ We have utils folder
 
       2. filereader which is responsible for csv reading.
 
-
-#INSTALLATION
-------------
- 
- * install dependencies by
-
-    npm install
-    
-
 #EXCUTION STEPS
 ------------
 1. git clone https://github.com/sharonvj/cryptoinvestor.git
 
-2.Go to cryptoInvestors directory
+2. Go to cryptoInvestors directory
 
 3. Run `npm install`
 
