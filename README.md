@@ -103,7 +103,7 @@ Go to CryptoInvestors directory
 
    Run `curl http://localhost:3000/api/v1/portfolio/latest/<token>`
 
-   ex. `curl http://localhost:3000/api/v1/portfolio/latest/1571967208`
+   ex. `curl http://localhost:3000/api/v1/portfolio/latest/BTC`
 
 6. To get portfolio value per token in USD on given date
   
