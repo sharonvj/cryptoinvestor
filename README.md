@@ -91,7 +91,7 @@ Go to CryptoInvestors directory
 
 1. Open a terminal 
 
-2. Run node app.js
+2. Run `node app.js`
 
 3. Open another terminal 
 
