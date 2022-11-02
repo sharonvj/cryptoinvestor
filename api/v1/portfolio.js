@@ -43,8 +43,7 @@ const getExchangeRates = (cryptoCurrencies, otherCurrencies) => {
  */
 const getAllPortfolios = () => {
   const promise = new Promise((resolve, reject) => {
-    const csvSchema = ['timestamp', 'transaction_type', 'token', 'amount'];
-    fileReader.readCsvFile('transactions.csv', csvSchema).then((result) => {
+    fileReader.readCsvFile('transactions.csv').then((result) => {
       resolve(result);
     }, (err) => {
       reject(err)
