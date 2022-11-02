@@ -5,7 +5,7 @@ const moment = require('moment');
 const data = {};
 let lastRead;
 
-const readCsvFile = (path, schema) => {
+const readCsvFile = (path) => {
   const promise = new Promise((resolve, reject) => {
     fs.stat(path, (error, stats) => {
       if (stats.size <= 209715200) {
