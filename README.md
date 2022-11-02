@@ -25,6 +25,7 @@ Write a command line program that does the following
 "csv-parser": "^3.0.0",
 "express": "^4.18.2",
 "fs": "^0.0.1-security"
+"moment": "^2.29.4"
 
 
 #DESIGN OVERVIEW
@@ -83,6 +84,9 @@ We have utils folder
 
 #EXCUTION STEPS
 ------------
+git clone https://github.com/sharonvj/cryptoinvestor.git
+
+
 Go to CryptoInvestors directory
 
 1. Open a terminal 
